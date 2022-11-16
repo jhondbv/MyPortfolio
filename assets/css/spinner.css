@@ -13,10 +13,10 @@
   line-height:150px;
   font-family:sans-serif;
   font-size:10px;
-  color:#13b0ec;
+  color:var(--green);
   letter-spacing:4px;
   text-transform:uppercase;
-  text-shadow:0 0 10px #13b0ec;
+  text-shadow:0 0 10px var(--green);
   box-shadow:0 0 20px rgba(255, 255, 255, 0.5);
   left:50%;
 }
@@ -29,8 +29,8 @@
   width:105%;
   height:105%;
   border:3px solid transparent;
-  border-top:3px solid #13b0ec;
-  border-right:3px solid #13b0ec;
+  border-top:3px solid var(--green);
+  border-right:3px solid var(--green);
   border-radius:50%;
   animation:animateC 2s linear infinite;
 }
@@ -53,10 +53,10 @@
   width:16px;
   height:16px;
   border-radius:50%;
-  background:#13b0ec;
+  background:var(--green);
   top:-6px;
   right:-8px;
-  box-shadow:0 0 20px #13b0ec;
+  box-shadow:0 0 20px var(--green);
 }
 @keyframes animateC
 {
